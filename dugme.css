@@ -1,0 +1,75 @@
+.myButton {
+	box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background-color:#a73f2d;
+	border-radius:39px;
+	border:5px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:4vw;
+	font-weight:bold;
+	padding:80px 100px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+    margin-bottom: 5vw;
+}
+.myButton:hover {
+	background-color:#b34332;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#demo{color: rgb(0, 0, 0);
+font-size: 6vw;
+font-family: Rubik Spray Paint;}
+
+.myButton1 {
+	box-shadow:inset 0px 34px 0px -15px #41be07;
+	background-color:#55e70c;
+	border-radius:39px;
+	border:5px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:4vw;
+	font-weight:bold;
+	padding:80px 100px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+    margin-bottom: 5vw;
+}
+.myButton1:hover {
+	background-color:#55e70c;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	box-shadow:inset 0px 34px 0px -15px #3a4eb5;
+	background-color:#102ed8;
+	border-radius:39px;
+	border:5px solid #241d13;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:4vw;
+	font-weight:bold;
+	padding:80px 100px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+    margin-bottom: 5vw;
+}
+.myButton2:hover {
+	background-color:#102ed8;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+

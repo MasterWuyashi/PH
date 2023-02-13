@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="dugme.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+    <title>Zapremina valjka</title>
+</head>
+<body style="background-color: bisque;">
+   
+  <center><p id="demo"></p></center>
+
+    <center><a href="#" class="myButton" onclick="MyFunction();">Amoksicilin</a></center>
+    <center><a href="#" class="myButton1" onclick="MyFunction2();">Paracetamol</a></center>
+    <center><a href="#" class="myButton2" onclick="MyFunction3();">Brufen</a></center>
+
+
+    <script >
+function MyFunction(){
+
+let a=prompt("Unesite broj kilograma(samo brojeve bez slova)");
+
+a.toNumber;
+let resultc=(a*65*5)/"250"/3;
+let c=resultc/5;
+let d=resultc/15;
+
+
+let result="Željena doza amoksicilina je "+ (a*65*5)/"250"/3+" ml"+" odnosno "+c+" 🥄"+" a to je "+d+" 🥄🥄🥄";
+
+alert(result);
+document.getElementById("demo").innerHTML=result;}
+function MyFunction2(){
+
+let a=prompt("Unesite broj kilograma(samo brojeve bez slova)");
+
+a.toNumber;
+
+let resultc=(a*12.5*5)/"120";
+let c=resultc/5;
+let d=resultc/15;
+let spoon="";
+
+
+let result = "Željena doza Paracetamola je "+ (a*12.5*5)/"120"+" ml"+" odnosno "+c+" 🥄"+" a to je "+d+" 🥄🥄🥄";
+
+alert(result);
+document.getElementById("demo").innerHTML=result;}
+
+function MyFunction3(){
+
+let a=prompt("Unesite broj kilograma(samo brojeve bez slova)");
+
+a.toNumber;
+
+let resultc=(a*7.5*5)/"100";
+let c=resultc/5;
+let d=resultc/15;
+
+let result = "Željena doza Brufena je "+ (a*7.5*5)/"100"+" ml"+" odnosno "+c+" 🥄"+" a to je "+d+" 🥄🥄🥄";
+
+alert(result);
+document.getElementById("demo").innerHTML=result;}
+
+
+ 
+    </script>
+</body>
+</html>
